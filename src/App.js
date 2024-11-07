@@ -14,12 +14,25 @@ export default function App() {
         </main>
         <footer>
           This project was coded by{" "}
-          <a href="https://alanas-dictionary-project.netlify.app/">
+          <a
+            href="https://alanas-dictionary-project.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Alana Jackson
           </a>{" "}
-          and is open-sourced on <a href="https://github">Github</a> and hosted
-          on{" "}
-          <a href="https://alanas-dictionary-project.netlify.app/">Netlify</a>
+          and is open-sourced on{" "}
+          <a href="https://github" target="_blank" rel="noopener noreferrer">
+            Github
+          </a>{" "}
+          and hosted on{" "}
+          <a
+            href="https://alanas-dictionary-project.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Netlify
+          </a>
         </footer>
       </div>
     </div>
