@@ -15,14 +15,18 @@ export default function App() {
         <footer>
           This project was coded by{" "}
           <a
-            href="https://alanas-dictionary-project.netlify.app/"
+            href="https://github.com/Elsabordeaux"
             target="_blank"
             rel="noopener noreferrer"
           >
             Alana Jackson
           </a>{" "}
           and is open-sourced on{" "}
-          <a href="https://github" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://github.com/Elsabordeaux/dictionary-project"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Github
           </a>{" "}
           and hosted on{" "}
