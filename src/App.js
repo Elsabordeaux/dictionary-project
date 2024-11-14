@@ -6,11 +6,13 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">
-          <img src={logo} className="logo img-fluid" alt="dictionary-logo" />
+        <header className="App-header d-flex justify-content-center">
+          <h1 className="title mt-5">DICTION</h1>
+          <img src={logo} className="logo" alt="dictionary-logo" />
+          <h1 className="title mt-5">RY</h1>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="search" />
         </main>
         <footer>
           This project was coded by{" "}

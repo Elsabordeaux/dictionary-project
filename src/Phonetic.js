@@ -1,21 +1,23 @@
 import React from "react";
+import "./Phonetic.css";
 
 export default function Phonetic(props) {
   return (
-    <div className="Phonetic">
+    <div className="Phonetic d-flex mt-4">
       <h3>
         <em>{props.phonetic}</em>
-        <div className="audio-link">
-          <a
-            className="btn btn-primary"
-            href="https://dictionary.cambridge.org/pronunciation/"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            Search for audio pronunciation here
-          </a>
-        </div>
       </h3>
+      <span className="audio-link ms-4">
+        <a
+          className="btn"
+          href="https://dictionary.cambridge.org/pronunciation/"
+          target="_blank"
+          rel="noreferrer noopener"
+          title="link to Cambridge dictionary pronunciation website"
+        >
+          🔉Search for audio pronunciation here
+        </a>
+      </span>
     </div>
   );
 }

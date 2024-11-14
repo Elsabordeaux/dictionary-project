@@ -1,6 +1,7 @@
 import React from "react";
 import Synonyms from "./Synonyms";
 import Example from "./Example";
+import "./Meaning.css";
 
 export default function Meaning(props) {
   return (
@@ -8,7 +9,7 @@ export default function Meaning(props) {
       <h3>
         <em>{props.meaning.partOfSpeech}</em>
       </h3>
-      <p>{props.meaning.definition}</p>
+      <p className="mt-4 mb-4">{props.meaning.definition}</p>
       <p>
         <Example example={props.meaning.example} />
         <br />

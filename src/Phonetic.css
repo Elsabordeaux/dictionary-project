@@ -1,0 +1,13 @@
+.btn {
+  background-color: pink;
+  border: 2px solid pink;
+}
+
+.btn:hover {
+  background-color: white;
+  border: 2px solid darkgrey;
+}
+
+.Phonetic h3 {
+  opacity: 70%;
+}

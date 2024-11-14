@@ -1,6 +1,41 @@
+body {
+  background: radial-gradient(
+    circle at 7.5% 24%,
+    rgb(237, 161, 193) 0%,
+    rgb(250, 178, 172) 25.5%,
+    rgb(190, 228, 210) 62.3%,
+    rgb(215, 248, 247) 93.8%
+  );
+}
+
+.App-header {
+  margin: 100px;
+}
+
 .logo {
-  max-width: 200px;
+  max-width: 120px;
   display: block;
-  margin: 0 auto;
-  padding: 30px;
+  margin: 30 auto;
+}
+
+.title {
+  font-family: "Lora", serif;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+footer {
+  text-align: center;
+  margin: 30px;
+  font-family: "Lora", serif;
+  font-size: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: palevioletred;
+}
+
+a:hover {
+  font-style: italic;
 }
