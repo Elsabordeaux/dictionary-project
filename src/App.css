@@ -1,4 +1,7 @@
 body {
+  max-width: 960px;
+  display: block;
+  margin: 0 auto;
   background: radial-gradient(
     circle at 7.5% 24%,
     rgb(237, 161, 193) 0%,
@@ -21,7 +24,7 @@ body {
 .title {
   font-family: "Lora", serif;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 68px;
 }
 
 footer {

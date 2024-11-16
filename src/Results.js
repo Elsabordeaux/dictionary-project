@@ -11,11 +11,13 @@ export default function Results(props) {
             <h1 className="text-capitalize">{props.definition.word}</h1>
             <Phonetic phonetic={props.definition.phonetic} />
           </div>
-          <img
-            src={props.photos[0].src.landscape}
-            className="col-6  rounded"
-            alt={props.photos[0].alt}
-          />
+          <div className="col-6">
+            <img
+              src={props.photos[0].src.landscape}
+              className=" img-fluid rounded"
+              alt={props.photos[0].alt}
+            />
+          </div>
         </section>
         {props.definition.meanings.map(function (meaning, index) {
           return (
