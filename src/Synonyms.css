@@ -1,7 +1,8 @@
 .Synonyms li {
   list-style: none;
-  display: inline;
+  display: inline-block;
   margin-right: 10px;
+  margin-bottom: 10px;
   border: 1px solid darkgrey;
   padding: 8px;
   border-radius: 5px;

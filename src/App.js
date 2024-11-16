@@ -5,7 +5,7 @@ import Dictionary from "./Dictionary";
 export default function App() {
   return (
     <div className="App">
-      <div className="container">
+      <div>
         <header className="App-header d-flex justify-content-center">
           <h1 className="title mt-5">DICTION</h1>
           <img src={logo} className="logo" alt="dictionary-logo" />

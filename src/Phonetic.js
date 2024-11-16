@@ -15,7 +15,7 @@ export default function Phonetic(props) {
           rel="noreferrer noopener"
           title="link to Cambridge dictionary pronunciation website"
         >
-          🔉Search for audio pronunciation here
+          🔉
         </a>
       </span>
     </div>
